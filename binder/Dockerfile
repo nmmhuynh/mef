@@ -1,9 +1,6 @@
 # Use the Firedrake base image
 FROM firedrakeproject/firedrake:latest
 
-# Install additional Python dependencies
-RUN pip install numpy matplotlib
-
 # Expose port for Jupyter Notebook
 EXPOSE 8888
 
